@@ -25,3 +25,13 @@ export default class SinglyLinkedList<T> {
 
 }
 }
+
+/* (A) => (B) => (C) => (D) 
+
+node<T> //container
+val: T
+next?: Node<T>
+prev?: Node<T> //doubly linked list
+
+O(1) insertion and deletion
+*/
