@@ -1,4 +1,4 @@
-export default class ArrayList<T> {
+export default class ArrayList<T> { //array of generic<T>, can grow when needed like linkedList interface
     public length: number;
 
     
@@ -25,3 +25,11 @@ export default class ArrayList<T> {
 
 }
 }
+
+/* 
+[2,    ]
+0     3 
+length: 1
+capacity: 3
+
+*/
